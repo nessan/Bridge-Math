@@ -1,0 +1,2813 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Eight Ever, Nine Never | fastpages</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Eight Ever, Nine Never" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<link rel="canonical" href="https://nessan.github.io/bridge-math/2020/07/05/Eight-Never-Nine-Ever.html" />
+<meta property="og:url" content="https://nessan.github.io/bridge-math/2020/07/05/Eight-Never-Nine-Ever.html" />
+<meta property="og:site_name" content="fastpages" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-05T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@type":"BlogPosting","headline":"Eight Ever, Nine Never","dateModified":"2020-07-05T00:00:00-05:00","datePublished":"2020-07-05T00:00:00-05:00","url":"https://nessan.github.io/bridge-math/2020/07/05/Eight-Never-Nine-Ever.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://nessan.github.io/bridge-math/2020/07/05/Eight-Never-Nine-Ever.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/bridge-math/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://nessan.github.io/bridge-math/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/bridge-math/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Eight Ever, Nine Never | fastpages</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Eight Ever, Nine Never" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<link rel="canonical" href="https://nessan.github.io/bridge-math/2020/07/05/Eight-Never-Nine-Ever.html" />
+<meta property="og:url" content="https://nessan.github.io/bridge-math/2020/07/05/Eight-Never-Nine-Ever.html" />
+<meta property="og:site_name" content="fastpages" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-05T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@type":"BlogPosting","headline":"Eight Ever, Nine Never","dateModified":"2020-07-05T00:00:00-05:00","datePublished":"2020-07-05T00:00:00-05:00","url":"https://nessan.github.io/bridge-math/2020/07/05/Eight-Never-Nine-Ever.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://nessan.github.io/bridge-math/2020/07/05/Eight-Never-Nine-Ever.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://nessan.github.io/bridge-math/feed.xml" title="fastpages" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/bridge-math/">fastpages</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/bridge-math/about/">About Me</a><a class="page-link" href="/bridge-math/search/">Search</a><a class="page-link" href="/bridge-math/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Eight Ever, Nine Never</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-07-05T00:00:00-05:00" itemprop="datePublished">
+        Jul 5, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      19 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/nessan/bridge-math/tree/master/_notebooks/2020-07-05-Eight-Never-Nine-Ever.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/bridge-math/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/nessan/bridge-math/master?filepath=_notebooks%2F2020-07-05-Eight-Never-Nine-Ever.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/bridge-math/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/nessan/bridge-math/blob/master/_notebooks/2020-07-05-Eight-Never-Nine-Ever.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/bridge-math/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2020-07-05-Eight-Never-Nine-Ever.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered celltag_dontExport"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Setting-Things-Up-for-Python-...">Setting Things Up for Python ...<a class="anchor-link" href="#Setting-Things-Up-for-Python-..."> </a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This notebook uses <em>Python</em> so we first set up a few things for that environment (note that this section of the notebook is tagged to not appear when we export the document to HTML or other formats):</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered celltag_dontExport">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">seaborn</span>
+<span class="kn">import</span> <span class="nn">scipy.special</span>
+<span class="kn">import</span> <span class="nn">scipy.stats</span> <span class="k">as</span> <span class="nn">stats</span>
+
+<span class="o">%</span><span class="k">matplotlib</span> inline
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered celltag_dontExport"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We also define a little function that pretty prints large numbers using commas to make them more readable so e.g. 8753912376 becomes 8,753,912,376 and small numbers as percentages ao 0.723 becomes 72.3%.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered celltag_dontExport">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">comma_print</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>   <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">x</span><span class="si">:</span><span class="s1">,</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">percent_print</span><span class="p">(</span><span class="n">x</span><span class="p">):</span> <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">x</span><span class="si">:</span><span class="s1">.1%</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span> 
+<span class="k">def</span> <span class="nf">pretty_print</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>  <span class="n">percent_print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">if</span> <span class="mi">0</span> <span class="o">&lt;=</span> <span class="n">x</span> <span class="o">&lt;=</span> <span class="mi">1</span> <span class="k">else</span> <span class="n">comma_print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Bridge is a game played by 4 players using a normal deck of 52 cards. The full deck is used so each player is dealt 13 cards.</p>
+<p>How many distinct Bridge <em>hands</em> are there? Each hand has 13 cards picked from a shuffled deck of 52 candidates. The specific order in which the cards are dealt is irrelevant — after all, typically the first thing you do when you pick up the hand is to immediately sort the cards into suits so clearly it isn't important if you pick up the 10$\clubsuit$ first followed later by the Q$\heartsuit$ or vice versa.  Mathematically speaking we are only interested in the number of <em>combinations</em> of 13 cards one can make from a pack of 52 cards (as opposed to the number of <em>permutations</em> of 13 cards where the order of selection was important for some reason).</p>
+<p>We will use $C(n,p)$ to denote the number of combinations of $p$ objects one can make from  $n$ candidates. Combinations are well understood in mathematics and $C(n,p)$ has the formula:
+$$
+  C(n,p) = \frac{n!}{p! \, (n-p)!},
+$$
+where $n!$ stands for <em>factorial</em> $n$ defined by
+$$
+  n! = n \times (n-1) \times (n-2) \times \dots \times 2 \times 1.
+$$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>There is a handy <em>Python</em> function we can use to compute $C(n,p)$:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">C</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="n">p</span><span class="p">):</span> <span class="k">return</span> <span class="n">scipy</span><span class="o">.</span><span class="n">special</span><span class="o">.</span><span class="n">comb</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="n">p</span><span class="p">,</span><span class="n">exact</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>So the number of distinct Bridge hands, $N_h$ is</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">number_of_hands</span> <span class="o">=</span> <span class="n">C</span><span class="p">(</span><span class="mi">52</span><span class="p">,</span> <span class="mi">13</span><span class="p">)</span>
+<span class="n">pretty_print</span><span class="p">(</span><span class="n">number_of_hands</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>635,013,559,600
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>or roughly 635 billion.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>However, that's only part of the story as the four players at the Bridge table each has their own 13-card hand and what really matters for any game is the set of the four hands. The Bridge term used for that set is a <em>board</em> and there are a truly vast number of possible boards.</p>
+<p>To see that you might think of the first player getting her 13 cards from the full 52 card deck, the second getting 13 cards from the remaining 39 cards, the third getting 13 from the remaining 26 cards, and the final 13 cards going to the last player. This means that the number of possible boards is</p>
+$$
+  N_b = C(52,13) \times C(39,13) \times C(26,13) \times C(13,13),
+$$<p>which we can compute using our $C$ function:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">number_of_boards</span> <span class="o">=</span> <span class="n">C</span><span class="p">(</span><span class="mi">52</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span> <span class="o">*</span> <span class="n">C</span><span class="p">(</span><span class="mi">39</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span> <span class="o">*</span> <span class="n">C</span><span class="p">(</span><span class="mi">26</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span> <span class="o">*</span> <span class="n">C</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span>
+<span class="n">pretty_print</span><span class="p">(</span><span class="n">number_of_boards</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>53,644,737,765,488,792,839,237,440,000
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>That is, there are $5.36 \times 10^{28}$ possible boards which is a staggeringly large number. There is no worry that all possible boards will be analyzed completely any time soon — Bridge will continue to be a game requiring on-the-spot analysis and skill!</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="A-Suit-Break-Example">A Suit Break Example<a class="anchor-link" href="#A-Suit-Break-Example"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>To motivate things we will look at an example where we are playing in no-trump and planning our line of play at the start of the game just after the dummy has put down his hand.</p>
+<p>Suppose as declarer we hold the $\spadesuit$AKQJ5 in our own hand and sees the $\spadesuit$432 in the dummy's hand on the table. The opponents hold the remaining five spades (the $\spadesuit$T9876 in this example) between them. We will try to make all five spade tricks by leading out the top spades one after another in an effort to exhaust the opponent's holding in the suit. Will that strategy work?</p>
+<p>It is easy to see that the declarer is guaranteed to make all the spade tricks as long as the missing five cards are <strong>not</strong> distributed 5-0 or 0-5. That 5-0 <em>break</em> is defined to mean that the declarer's left hand opponent (LHO) has all five spades and the right hand opponent (RHO) has none. The 0-5 break equivalently means that the LHO has no spades and the RHO has all five. With a 5-0 or 0-5 break the declarer can only make four spade tricks as the opponents can block her fifth trick by hanging on to their 10$\spadesuit$.</p>
+<p>What are the odds of getting that bad 5-0 or 0-5 break?</p>
+<p>We are at the start of play so the opponents hold a total of 26 cards between them. Repeating our earlier argument for four hands we might think of one opponent getting their 13 cards from the 26 and the remaining 13 going to her partner. So with no constraints, the number of distinct hands the opposition can have is</p>
+$$
+    C(26,13) \times C(13,13)
+$$<p>
+or</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pretty_print</span><span class="p">(</span><span class="n">C</span><span class="p">(</span><span class="mi">26</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span><span class="o">*</span><span class="n">C</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="mi">13</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>10,400,600
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>which at a mere 10 million odd seems quite manageable after those giant numbers we encountered earlier!</p>
+<p>In the case we are considering, the opponents hold 5 spades and 21 others. What is the probability that the LHO has exactly 5 spades and by extension 8 non-spade cards (in which case of course the RHO will have exactly 0 spades and 13 others).</p>
+<p>Well the LHO gets a  selection of 5 spades from the 5 outstanding. The LHO also gets 8 other cards from the 21 non-spades outstanding. The total number of distinct hands of this form possible for the LHO is:</p>
+$$
+C(5,5) \times C(21,8)
+$$<p>or</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pretty_print</span><span class="p">(</span><span class="n">C</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span><span class="o">*</span><span class="n">C</span><span class="p">(</span><span class="mi">21</span><span class="p">,</span><span class="mi">8</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>203,490
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Hence the <em>probability</em> that the LHO has all five spades (and by extension that the RHO has none) is</p>
+$$
+\frac{C(5,5) \times C(21,8)}{C(26,13)}
+$$<p>which is just</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pretty_print</span><span class="p">(</span><span class="n">C</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span><span class="o">*</span><span class="n">C</span><span class="p">(</span><span class="mi">21</span><span class="p">,</span><span class="mi">8</span><span class="p">)</span> <span class="o">/</span> <span class="n">C</span><span class="p">(</span><span class="mi">26</span><span class="p">,</span><span class="mi">13</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>2.0%
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>So the chances of getting a 5-0 break is 2%. Repeating the argument you see that the chance of a 0-5 break is also 2%. Therefore the probability of getting any bad break is 4%. This means that 96% of the time the declarer can be confident of taking all five spade tricks so will feel very unlucky if things go badly in that suit!</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Another-Suit-Break-Example">Another Suit Break Example<a class="anchor-link" href="#Another-Suit-Break-Example"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>For our second example consider a no-trump game where declarer holds $\spadesuit$AKQ65 in her own hand and has the $\spadesuit$432 in the dummy's hand on the table. Her opponents have the remaining five spades (the $\spadesuit$JT987 in this example) between them. Even missing the $\spadesuit$J, declarer still has a very powerful spade suit and will hope to make all five spade tricks by leading out the top cards one after another in an effort to exhaust her opponent's holding in the suit. How will that strategy work this time?</p>
+<p>It is easy to see that she will make all five tricks as long as the spades break either 3-2 or 2-3 as in those cases the three tricks taken by the $\spadesuit$AKQ will leave the opponents with no more spades and our declarer can safely cash in her two little ones.</p>
+<p>By design in this example the opponents hold all the intermediate spades so if the suit breaks 5-0 or 0-5 then the declarer can only ever make three tricks in spades. If the suit breaks 4-1 or 1-4 then the declarer can at most make four tricks in spades.</p>
+<p>What are the chances of getting the good break 3-2?</p>
+<p>Once again the opponents have 26 cards between them and 5 of those are spades and 21 are not. In this break the LHO will have 3 of 5 outstanding spades and 10 other cards. The number of distinct hands of that form for the LHO is then:</p>
+$$
+C(5,3) \times C(21,10)
+$$<p>or</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pretty_print</span><span class="p">(</span><span class="n">C</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span><span class="o">*</span><span class="n">C</span><span class="p">(</span><span class="mi">21</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>3,527,160
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Hence the probability that the LHO has three spades (and by extension that the RHO has two) is</p>
+$$
+\frac{C(5,3) \times C(21,10)}{C(26,13)}
+$$<p>which is just</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pretty_print</span><span class="p">(</span><span class="n">C</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span><span class="o">*</span><span class="n">C</span><span class="p">(</span><span class="mi">21</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span> <span class="o">/</span> <span class="n">C</span><span class="p">(</span><span class="mi">26</span><span class="p">,</span><span class="mi">13</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>33.9%
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>So the chances of getting a 3-2 break is 33.9%. Repeating the argument you see that the chance of a 2-3 break is also 33.9%. This means that the combined odds of getting that <em>good</em> 2-3 or 3-2 break in spades is 67.8%. Not bad at all, but it does means that the there is roughly one chance in three that the declarer does <em>not</em> get all five spade tricks so might want to have a backup plan in her pocket just in case!</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Suit-Break-Probabilities-at-the-Start-of-Play">Suit Break Probabilities at the Start of Play<a class="anchor-link" href="#Suit-Break-Probabilities-at-the-Start-of-Play"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Calculating the probabilities of how the missing cards in a suit can break across the hands of two opponents is a fundamental problem for the mathematics of Bridge. Following our examples above we can readily create a function to compute the probability of any break across two hands at the start of play. The function will take two arguments, for example, if those are 4 and 3 then the function returns the probability of 4-3 break for the case where the opponents hold a total of 7 cards in the suit between them.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">combinations_with_break</span><span class="p">(</span><span class="n">m</span><span class="p">,</span><span class="n">n</span><span class="p">):</span> <span class="k">return</span> <span class="n">C</span><span class="p">(</span><span class="n">m</span><span class="o">+</span><span class="n">n</span><span class="p">,</span><span class="n">m</span><span class="p">)</span><span class="o">*</span><span class="n">C</span><span class="p">(</span><span class="mi">26</span><span class="o">-</span><span class="n">m</span><span class="o">-</span><span class="n">n</span><span class="p">,</span> <span class="mi">13</span><span class="o">-</span><span class="n">m</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">probability_of_break</span><span class="p">(</span><span class="n">m</span><span class="p">,</span><span class="n">n</span><span class="p">):</span>    <span class="k">return</span> <span class="n">combinations_with_break</span><span class="p">(</span><span class="n">m</span><span class="p">,</span><span class="n">n</span><span class="p">)</span> <span class="o">/</span> <span class="n">C</span><span class="p">(</span><span class="mi">26</span><span class="p">,</span><span class="mi">13</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>As a quick check we can re-compute an earlier example</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pretty_print</span><span class="p">(</span><span class="n">probability_of_break</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>33.9%
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We can use our <code>combinations_with_break(m,n)</code> and <code>probability_of_break(m,n)</code> functions to create a table of all the possible breaks for any given number of missing cards:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">table_of_breaks_missing</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
+    
+    <span class="c1"># Iterate over all the possible breaks for the missing m cards from 0–m to m–0.</span>
+    <span class="c1"># Use our `probabilityOfBreak` function to get the associated probability for each one</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="p">[</span> <span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">–</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">m</span><span class="o">-</span><span class="n">k</span><span class="p">),</span>
+              <span class="n">combinations_with_break</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">m</span><span class="o">-</span><span class="n">k</span><span class="p">),</span> 
+              <span class="n">probability_of_break</span><span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">m</span><span class="o">-</span><span class="n">k</span><span class="p">))</span> 
+            <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span> <span class="p">]</span>
+    
+    <span class="c1"># Set up the table for that data with some labeled columns</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Break&quot;</span><span class="p">,</span> <span class="s2">&quot;Combinations&quot;</span><span class="p">,</span> <span class="s2">&quot;Probability&quot;</span><span class="p">])</span>
+    
+    <span class="c1"># Format that table in a nice way</span>
+    <span class="n">table_properties</span> <span class="o">=</span> <span class="p">{</span> <span class="s2">&quot;width&quot;</span><span class="p">:</span> <span class="s2">&quot;20em&quot;</span><span class="p">,</span> <span class="s2">&quot;text-align&quot;</span><span class="p">:</span> <span class="s2">&quot;center&quot;</span> <span class="p">}</span>
+    <span class="n">header_style</span>     <span class="o">=</span> <span class="p">{</span> <span class="s2">&quot;selector&quot;</span><span class="p">:</span> <span class="s2">&quot;th&quot;</span><span class="p">,</span> <span class="s2">&quot;props&quot;</span><span class="p">:</span> <span class="p">[(</span><span class="s2">&quot;text-align&quot;</span><span class="p">,</span> <span class="s2">&quot;center&quot;</span><span class="p">)]</span> <span class="p">}</span>
+    <span class="n">caption_style</span>    <span class="o">=</span> <span class="p">{</span> <span class="s2">&quot;selector&quot;</span><span class="p">:</span> <span class="s2">&quot;caption&quot;</span><span class="p">,</span> 
+                         <span class="s2">&quot;props&quot;</span><span class="p">:</span> <span class="p">[(</span><span class="s2">&quot;font-weight&quot;</span><span class="p">,</span> <span class="s2">&quot;bold&quot;</span><span class="p">),</span> 
+                                   <span class="p">(</span><span class="s2">&quot;font-style&quot;</span><span class="p">,</span>  <span class="s2">&quot;italic&quot;</span><span class="p">),</span> 
+                                   <span class="p">(</span><span class="s2">&quot;font-size&quot;</span><span class="p">,</span>   <span class="s2">&quot;110%&quot;</span><span class="p">),</span>
+                                   <span class="p">(</span><span class="s2">&quot;text-align&quot;</span><span class="p">,</span>  <span class="s2">&quot;center&quot;</span><span class="p">)]</span> <span class="p">}</span>
+
+    <span class="n">styled_DF</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">hide_index</span><span class="p">()</span><span class="o">.</span>\
+                  <span class="n">set_caption</span><span class="p">(</span><span class="s2">&quot;Break Table for </span><span class="si">{}</span><span class="s2"> Missing Cards&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">m</span><span class="p">))</span><span class="o">.</span>\
+                  <span class="nb">format</span><span class="p">({</span><span class="s2">&quot;Combinations&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="si">{:,}</span><span class="s2">&quot;</span><span class="p">})</span><span class="o">.</span>\
+                  <span class="nb">format</span><span class="p">({</span><span class="s2">&quot;Probability&quot;</span><span class="p">:</span> <span class="s2">&quot;</span><span class="si">{:.2%}</span><span class="s2">&quot;</span><span class="p">})</span><span class="o">.</span>\
+                  <span class="n">set_properties</span><span class="p">(</span><span class="o">**</span><span class="n">table_properties</span><span class="p">)</span><span class="o">.</span>\
+                  <span class="n">set_table_styles</span><span class="p">([</span><span class="n">header_style</span><span class="p">,</span> <span class="n">caption_style</span><span class="p">])</span>
+    
+    <span class="k">return</span> <span class="n">styled_DF</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>For example, if we are missing just 1 card the table looks like:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">table_of_breaks_missing</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<style type="text/css">
+    #T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1row0_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1row1_col2 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1"><caption>Break Table for 1 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Combinations</th>        <th class="col_heading level0 col2">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–1</td>
+                        <td id="T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">5,200,300</td>
+                        <td id="T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1row0_col2" class="data row0 col2">50.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–0</td>
+                        <td id="T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">5,200,300</td>
+                        <td id="T_61eb3cfc_be10_11ea_a3e3_acbc32b848f1row1_col2" class="data row1 col2">50.00%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>which is what you would expect—one of the two opponents has the missing card and in the absence of any other information it is a straight coin-flip to guess which one.</p>
+<p>In contrast if we look at the case where we are missing 2 cards</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">table_of_breaks_missing</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<style type="text/css">
+    #T_6e445074_be10_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_6e445074_be10_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_6e445074_be10_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_6e445074_be10_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_6e445074_be10_11ea_a3e3_acbc32b848f1row0_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_6e445074_be10_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_6e445074_be10_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_6e445074_be10_11ea_a3e3_acbc32b848f1row1_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_6e445074_be10_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_6e445074_be10_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_6e445074_be10_11ea_a3e3_acbc32b848f1row2_col2 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_6e445074_be10_11ea_a3e3_acbc32b848f1"><caption>Break Table for 2 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Combinations</th>        <th class="col_heading level0 col2">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_6e445074_be10_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–2</td>
+                        <td id="T_6e445074_be10_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">2,496,144</td>
+                        <td id="T_6e445074_be10_11ea_a3e3_acbc32b848f1row0_col2" class="data row0 col2">24.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_6e445074_be10_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–1</td>
+                        <td id="T_6e445074_be10_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">5,408,312</td>
+                        <td id="T_6e445074_be10_11ea_a3e3_acbc32b848f1row1_col2" class="data row1 col2">52.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_6e445074_be10_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–0</td>
+                        <td id="T_6e445074_be10_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">2,496,144</td>
+                        <td id="T_6e445074_be10_11ea_a3e3_acbc32b848f1row2_col2" class="data row2 col2">24.00%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>which is perhaps just a little off from what your initial instinct might lead you to think. For if we label the missing cards by  $a$ and $b$ then you might reason there are only four scenarios. Namely, the LHO has both cards, the LHO has just one of them (that's two more possibilities), or the LHO has neither card. With no other information these seem to be equally likely and you might conclude that the probability of a 2-0 or 0-2 break is 25% and the probability of a 1-1 break is 50%. That's <em>close</em> to what we have in our table but obviously not an exact match. What gives?</p>
+<p>The thing missing in the simple analysis is the identities of all the <em>other</em> cards in the two hands. So when the LHO has both $a$ and $b$ she also has 11 other cards from a pool of 24 (i.e. the 26 cards the opponents have between them less the $a$ and $b$ cards). Instead of just <em>one</em> scenario where the LHO has both cards there are in fact</p>
+$$ 
+    C(24,11) = 2,496,144
+$$<p>such 2-0 break scenarios. It is easy to see that there are exactly the same number of 0-2 break scenarios. So the total number of scenarios that yield a 2-0 or 0-2 break is 4,992,288</p>
+<p>Similarly instead of there being just <em>two</em> scenarios where the LHO has just one of the two cards you should think that if she has one of $a$ or $b$ then she also has 12 other cards from that pool of 24 so there are</p>
+$$
+    2 C(24,12) = 5,408,312
+$$<p>scenarios where we get a 1-1 break. That is a bit more than the 4,992,288 scenarios where we <em>don't</em> get a 1-1 break! This means that at the start of play the probability of getting a 1-1 break is in fact slightly higher than 50%!</p>
+<p>Moving on to the situation where we are missing 3 cards we have:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">table_of_breaks_missing</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<style type="text/css">
+    #T_23a169b2_be10_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_23a169b2_be10_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_23a169b2_be10_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_23a169b2_be10_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_23a169b2_be10_11ea_a3e3_acbc32b848f1row0_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_23a169b2_be10_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_23a169b2_be10_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_23a169b2_be10_11ea_a3e3_acbc32b848f1row1_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_23a169b2_be10_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_23a169b2_be10_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_23a169b2_be10_11ea_a3e3_acbc32b848f1row2_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_23a169b2_be10_11ea_a3e3_acbc32b848f1row3_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_23a169b2_be10_11ea_a3e3_acbc32b848f1row3_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_23a169b2_be10_11ea_a3e3_acbc32b848f1row3_col2 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_23a169b2_be10_11ea_a3e3_acbc32b848f1"><caption>Break Table for 3 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Combinations</th>        <th class="col_heading level0 col2">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_23a169b2_be10_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–3</td>
+                        <td id="T_23a169b2_be10_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">1,144,066</td>
+                        <td id="T_23a169b2_be10_11ea_a3e3_acbc32b848f1row0_col2" class="data row0 col2">11.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_23a169b2_be10_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–2</td>
+                        <td id="T_23a169b2_be10_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">4,056,234</td>
+                        <td id="T_23a169b2_be10_11ea_a3e3_acbc32b848f1row1_col2" class="data row1 col2">39.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_23a169b2_be10_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–1</td>
+                        <td id="T_23a169b2_be10_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">4,056,234</td>
+                        <td id="T_23a169b2_be10_11ea_a3e3_acbc32b848f1row2_col2" class="data row2 col2">39.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_23a169b2_be10_11ea_a3e3_acbc32b848f1row3_col0" class="data row3 col0">3–0</td>
+                        <td id="T_23a169b2_be10_11ea_a3e3_acbc32b848f1row3_col1" class="data row3 col1">1,144,066</td>
+                        <td id="T_23a169b2_be10_11ea_a3e3_acbc32b848f1row3_col2" class="data row3 col2">11.00%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>and as we mentioned earlier there is an excellent 78% chance the declarer will see one of the two most even breaks (namely 1-2 or 2-1).</p>
+<p>For 4 missing cards we have:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">table_of_breaks_missing</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<style type="text/css">
+    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row0_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row1_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row2_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row3_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row3_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row3_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row4_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row4_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row4_col2 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1"><caption>Break Table for 4 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Combinations</th>        <th class="col_heading level0 col2">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–4</td>
+                        <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">497,420</td>
+                        <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row0_col2" class="data row0 col2">4.78%</td>
+            </tr>
+            <tr>
+                                <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–3</td>
+                        <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">2,586,584</td>
+                        <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row1_col2" class="data row1 col2">24.87%</td>
+            </tr>
+            <tr>
+                                <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–2</td>
+                        <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">4,232,592</td>
+                        <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row2_col2" class="data row2 col2">40.70%</td>
+            </tr>
+            <tr>
+                                <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row3_col0" class="data row3 col0">3–1</td>
+                        <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row3_col1" class="data row3 col1">2,586,584</td>
+                        <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row3_col2" class="data row3 col2">24.87%</td>
+            </tr>
+            <tr>
+                                <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row4_col0" class="data row4 col0">4–0</td>
+                        <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row4_col1" class="data row4 col1">497,420</td>
+                        <td id="T_b4cadf4a_be10_11ea_a3e3_acbc32b848f1row4_col2" class="data row4 col2">4.78%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>so the chance of a perfect 2-2 split is only about 41%.</p>
+<p>How about 5 missing cards?</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">table_of_breaks_missing</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<style type="text/css">
+    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row0_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row1_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row2_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row3_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row3_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row3_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row4_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row4_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row4_col2 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row5_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row5_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row5_col2 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1"><caption>Break Table for 5 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Combinations</th>        <th class="col_heading level0 col2">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–5</td>
+                        <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">203,490</td>
+                        <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row0_col2" class="data row0 col2">1.96%</td>
+            </tr>
+            <tr>
+                                <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–4</td>
+                        <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">1,469,650</td>
+                        <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row1_col2" class="data row1 col2">14.13%</td>
+            </tr>
+            <tr>
+                                <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–3</td>
+                        <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">3,527,160</td>
+                        <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row2_col2" class="data row2 col2">33.91%</td>
+            </tr>
+            <tr>
+                                <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row3_col0" class="data row3 col0">3–2</td>
+                        <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row3_col1" class="data row3 col1">3,527,160</td>
+                        <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row3_col2" class="data row3 col2">33.91%</td>
+            </tr>
+            <tr>
+                                <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row4_col0" class="data row4 col0">4–1</td>
+                        <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row4_col1" class="data row4 col1">1,469,650</td>
+                        <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row4_col2" class="data row4 col2">14.13%</td>
+            </tr>
+            <tr>
+                                <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row5_col0" class="data row5 col0">5–0</td>
+                        <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row5_col1" class="data row5 col1">203,490</td>
+                        <td id="T_ddd8ac46_be10_11ea_a3e3_acbc32b848f1row5_col2" class="data row5 col2">1.96%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We see that the most even possible breaks (either 2-3 or 3-2) capture roughly 68% of the scenarios. That is very useful information for the declarer.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="&quot;Eight-Ever,-Nine-Never&quot;">"Eight Ever, Nine Never"<a class="anchor-link" href="#&quot;Eight-Ever,-Nine-Never&quot;"> </a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>A declarer will often have a total of 8 or 9 cards in some key suit between her own and dummy's hand and squeezing the maximum number of tricks out of this suit is often critical for success. If the holding is headed by the Ace and King but is missing the Queen she is faced with a classic choice of playing out the Ace and King and hoping that the Queen will <em>drop</em>, or instead trying to <em>finesse</em> the Queen to prevent the opponents capturing a trick. Of course there may be other information the declarer can glean from the bidding or the play of the other suits to inform this decision, but every player at some point in their Bridge career learns that absent that, the rule to follow is <em>eight ever, nine never</em>, meaning that you should always go for the finesse if you hold just 8 cards in the suit and always go for the drop if you are holding 9 cards.  Where does that wisdom that come from and just how good is it anyway?</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Holding-9-&#8212;-The-Drop">Holding 9 &#8212; The Drop<a class="anchor-link" href="#Holding-9-&#8212;-The-Drop"> </a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Consider the case where the declarer has 9 trump with say AKJT9 opposite the 5432 in dummy. The simplest strategy is to play for the drop by cashing in the Ace and King hoping the Queen falls. This will happen if the Queen is a singleton or one of a doubleton. What are the odds of that being the case?</p>
+<p>The opponents hold 4 trumps between them so the Queen will appear in a doubleton is if we get an even 2-2 break. That has the probability</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pretty_print</span><span class="p">(</span><span class="n">probability_of_break</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>40.7%
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The Queen will also fall if it is a singleton which will be the case in one quarter of all the 3-1 breaks and one quarter all the 1-3 breaks which is</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pretty_print</span><span class="p">(</span><span class="mf">0.25</span><span class="o">*</span><span class="p">(</span><span class="n">probability_of_break</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">probability_of_break</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">)))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>12.4%
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>So all in all the drop will work some 53.1% of the time. Not exactly a bet-the-house percentage but the perhaps better odds than you get from trying the finesse?</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Holding-9-&#8212;-The-Finesse">Holding 9 &#8212; The Finesse<a class="anchor-link" href="#Holding-9-&#8212;-The-Finesse"> </a></h3><p>As before the declarer has 9 cards in the suit; the AKJ76 opposite the 5432 in dummy and we'll assume that she has as many entries to dummy as needed. The basic finesse strategy is to first cash in the Ace and then cross to the dummy and play low towards the Jack (obviously covering the Queen if the RHO plays it), return to dummy and repeat. The strategy succeeds if the opponents cards in the suit are divided in any of the following ways:</p>
+<table>
+<thead><tr>
+<th style="text-align:center">Scenario</th>
+<th style="text-align:center">LHO</th>
+<th style="text-align:center">RHO</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1.</td>
+<td style="text-align:center">Q</td>
+<td style="text-align:center">T98</td>
+<td>The Q falls immediately to the A. The T9 are then mopped up by the KJ</td>
+</tr>
+<tr>
+<td style="text-align:center">2.</td>
+<td style="text-align:center">T98</td>
+<td style="text-align:center">Q</td>
+<td>The same thing.</td>
+</tr>
+<tr>
+<td style="text-align:center">3.</td>
+<td style="text-align:center">xx</td>
+<td style="text-align:center">Qx</td>
+<td>x stands for any of the T98. The Q falls on the second play from dummy.</td>
+</tr>
+<tr>
+<td style="text-align:center">4.</td>
+<td style="text-align:center">x</td>
+<td style="text-align:center">Qxx</td>
+<td>The Q falls on the third round! The <em>finesse</em> succeeds, the <em>drop</em> fails.</td>
+</tr>
+</tbody>
+</table>
+<p>On the other hand the finesse fails if:</p>
+<table>
+<thead><tr>
+<th style="text-align:center">Scenario</th>
+<th style="text-align:center">LHO</th>
+<th style="text-align:center">RHO</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">5.</td>
+<td style="text-align:center">Qx</td>
+<td style="text-align:center">xx</td>
+<td>The <em>drop</em> strategy works in this situation but the <em>finesse</em> fails!</td>
+</tr>
+<tr>
+<td style="text-align:center">6.</td>
+<td style="text-align:center">Qxx</td>
+<td style="text-align:center">x</td>
+<td>Declarer cannot capture the Q in this situation. Both strategies fail.</td>
+</tr>
+<tr>
+<td style="text-align:center">7.</td>
+<td style="text-align:center">QT98</td>
+<td style="text-align:center">-</td>
+<td>Same thing.</td>
+</tr>
+<tr>
+<td style="text-align:center">8.</td>
+<td style="text-align:center">-</td>
+<td style="text-align:center">QT98</td>
+<td>Good try but the dummy is too short to finesse our way to success.</td>
+</tr>
+</tbody>
+</table>
+<p>Concentrating on the first table where the finesse succeeds we see that 1. is a subset of a 1-3 break where the Queen is the singleton (so 25% of all 1-3 breaks). Similarly 2. happens in 25% of all 3-1 breaks. There are 6 possible 2-2 breaks and scenario 3. represents three of them as the x in Qx can be one of T98. So scenario 3. occurs in 50% of all 2-2 breaks. Finally scenario 4. is a another 1-3 break and three of the four 1-3 breaks will have this form.</p>
+<p>So the probability of success for the finesse is:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pretty_print</span><span class="p">(</span><span class="mf">0.25</span><span class="o">*</span><span class="n">probability_of_break</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span> <span class="o">+</span> 
+             <span class="mf">0.25</span><span class="o">*</span><span class="n">probability_of_break</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> 
+             <span class="mf">0.50</span><span class="o">*</span><span class="n">probability_of_break</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span> <span class="o">+</span> 
+             <span class="mf">0.75</span><span class="o">*</span><span class="n">probability_of_break</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>51.4%
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>i.e. the <em>drop</em> has a 53.1% chance of success whereas the <em>finesse</em> has a 51.4% chance. There is then just a slight preference for playing for the drop when you hold nine cards in the suit and need to capture the missing Queen. However, both strategies are really not much better than a coin flip! Ideally you might try and garner some other information to inform your play before embarking on either line of attack.</p>
+<p>The place where this type of decision has to be made early is often when you are drawing trump. The declarer is usually worried about the defense getting a ruffing trick and cannot wait before playing out the trump suit. In that case the optimal strategy (by a whisker) is to play for the drop.</p>
+<p>Looking at our tables above we see that the defense will always get a trump trick in scenarios 6, 7, and 8. The <em>finesse</em> works in scenario 4 where the <em>drop</em> fails while the exact opposite happens in scenario 5. For the particular layout here where we have 9 cards in all it turns out that scenario 5 is slightly more frequent than scenario 4 and hence the <em>drop</em> is favored.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Breaks-for-Any-Number-of-Missing-Cards-at-the-Start-of-Play">Breaks for Any Number of Missing Cards at the Start of Play<a class="anchor-link" href="#Breaks-for-Any-Number-of-Missing-Cards-at-the-Start-of-Play"> </a></h2>
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">missing</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">14</span><span class="p">):</span> <span class="n">display</span><span class="p">(</span><span class="n">table_of_breaks_missing</span><span class="p">(</span><span class="n">missing</span><span class="p">))</span>
+    
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<style type="text/css">
+    #T_0c2a36a0_be0c_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_0c2a36a0_be0c_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_0c2a36a0_be0c_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2a36a0_be0c_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2a36a0_be0c_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2a36a0_be0c_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_0c2a36a0_be0c_11ea_a3e3_acbc32b848f1"><caption>Break Probabilities for 1 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_0c2a36a0_be0c_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–1</td>
+                        <td id="T_0c2a36a0_be0c_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">50.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2a36a0_be0c_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–0</td>
+                        <td id="T_0c2a36a0_be0c_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">50.00%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<style type="text/css">
+    #T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1"><caption>Break Probabilities for 2 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–2</td>
+                        <td id="T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">24.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–1</td>
+                        <td id="T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">52.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–0</td>
+                        <td id="T_0c2b2ae2_be0c_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">24.00%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<style type="text/css">
+    #T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row3_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row3_col1 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1"><caption>Break Probabilities for 3 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–3</td>
+                        <td id="T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">11.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–2</td>
+                        <td id="T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">39.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–1</td>
+                        <td id="T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">39.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row3_col0" class="data row3 col0">3–0</td>
+                        <td id="T_0c2c20d2_be0c_11ea_a3e3_acbc32b848f1row3_col1" class="data row3 col1">11.00%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<style type="text/css">
+    #T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row3_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row3_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row4_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row4_col1 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1"><caption>Break Probabilities for 4 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–4</td>
+                        <td id="T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">4.78%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–3</td>
+                        <td id="T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">24.87%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–2</td>
+                        <td id="T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">40.70%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row3_col0" class="data row3 col0">3–1</td>
+                        <td id="T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row3_col1" class="data row3 col1">24.87%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row4_col0" class="data row4 col0">4–0</td>
+                        <td id="T_0c2d27ac_be0c_11ea_a3e3_acbc32b848f1row4_col1" class="data row4 col1">4.78%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<style type="text/css">
+    #T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row3_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row3_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row4_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row4_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row5_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row5_col1 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1"><caption>Break Probabilities for 5 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–5</td>
+                        <td id="T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">1.96%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–4</td>
+                        <td id="T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">14.13%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–3</td>
+                        <td id="T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">33.91%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row3_col0" class="data row3 col0">3–2</td>
+                        <td id="T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row3_col1" class="data row3 col1">33.91%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row4_col0" class="data row4 col0">4–1</td>
+                        <td id="T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row4_col1" class="data row4 col1">14.13%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row5_col0" class="data row5 col0">5–0</td>
+                        <td id="T_0c2e3ed0_be0c_11ea_a3e3_acbc32b848f1row5_col1" class="data row5 col1">1.96%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<style type="text/css">
+    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row3_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row3_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row4_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row4_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row5_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row5_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row6_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row6_col1 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1"><caption>Break Probabilities for 6 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–6</td>
+                        <td id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">0.75%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–5</td>
+                        <td id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">7.27%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–4</td>
+                        <td id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">24.22%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row3_col0" class="data row3 col0">3–3</td>
+                        <td id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row3_col1" class="data row3 col1">35.53%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row4_col0" class="data row4 col0">4–2</td>
+                        <td id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row4_col1" class="data row4 col1">24.22%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row5_col0" class="data row5 col0">5–1</td>
+                        <td id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row5_col1" class="data row5 col1">7.27%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row6_col0" class="data row6 col0">6–0</td>
+                        <td id="T_0c2f5cfc_be0c_11ea_a3e3_acbc32b848f1row6_col1" class="data row6 col1">0.75%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<style type="text/css">
+    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row3_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row3_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row4_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row4_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row5_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row5_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row6_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row6_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row7_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row7_col1 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1"><caption>Break Probabilities for 7 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–7</td>
+                        <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">0.26%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–6</td>
+                        <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">3.39%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–5</td>
+                        <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">15.26%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row3_col0" class="data row3 col0">3–4</td>
+                        <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row3_col1" class="data row3 col1">31.09%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row4_col0" class="data row4 col0">4–3</td>
+                        <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row4_col1" class="data row4 col1">31.09%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row5_col0" class="data row5 col0">5–2</td>
+                        <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row5_col1" class="data row5 col1">15.26%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row6_col0" class="data row6 col0">6–1</td>
+                        <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row6_col1" class="data row6 col1">3.39%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row7_col0" class="data row7 col0">7–0</td>
+                        <td id="T_0c308c1c_be0c_11ea_a3e3_acbc32b848f1row7_col1" class="data row7 col1">0.26%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<style type="text/css">
+    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row3_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row3_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row4_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row4_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row5_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row5_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row6_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row6_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row7_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row7_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row8_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c321582_be0c_11ea_a3e3_acbc32b848f1row8_col1 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1"><caption>Break Probabilities for 8 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–8</td>
+                        <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">0.08%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–7</td>
+                        <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">1.43%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–6</td>
+                        <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">8.57%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row3_col0" class="data row3 col0">3–5</td>
+                        <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row3_col1" class="data row3 col1">23.56%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row4_col0" class="data row4 col0">4–4</td>
+                        <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row4_col1" class="data row4 col1">32.72%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row5_col0" class="data row5 col0">5–3</td>
+                        <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row5_col1" class="data row5 col1">23.56%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row6_col0" class="data row6 col0">6–2</td>
+                        <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row6_col1" class="data row6 col1">8.57%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row7_col0" class="data row7 col0">7–1</td>
+                        <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row7_col1" class="data row7 col1">1.43%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row8_col0" class="data row8 col0">8–0</td>
+                        <td id="T_0c321582_be0c_11ea_a3e3_acbc32b848f1row8_col1" class="data row8 col1">0.08%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<style type="text/css">
+    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row3_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row3_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row4_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row4_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row5_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row5_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row6_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row6_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row7_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row7_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row8_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row8_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row9_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c338994_be0c_11ea_a3e3_acbc32b848f1row9_col1 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1"><caption>Break Probabilities for 9 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–9</td>
+                        <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">0.02%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–8</td>
+                        <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">0.54%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–7</td>
+                        <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">4.28%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row3_col0" class="data row3 col0">3–6</td>
+                        <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row3_col1" class="data row3 col1">15.71%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row4_col0" class="data row4 col0">4–5</td>
+                        <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row4_col1" class="data row4 col1">29.45%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row5_col0" class="data row5 col0">5–4</td>
+                        <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row5_col1" class="data row5 col1">29.45%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row6_col0" class="data row6 col0">6–3</td>
+                        <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row6_col1" class="data row6 col1">15.71%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row7_col0" class="data row7 col0">7–2</td>
+                        <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row7_col1" class="data row7 col1">4.28%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row8_col0" class="data row8 col0">8–1</td>
+                        <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row8_col1" class="data row8 col1">0.54%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row9_col0" class="data row9 col0">9–0</td>
+                        <td id="T_0c338994_be0c_11ea_a3e3_acbc32b848f1row9_col1" class="data row9 col1">0.02%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<style type="text/css">
+    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row3_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row3_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row4_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row4_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row5_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row5_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row6_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row6_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row7_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row7_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row8_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row8_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row9_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row9_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row10_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row10_col1 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1"><caption>Break Probabilities for 10 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–10</td>
+                        <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">0.01%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–9</td>
+                        <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">0.17%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–8</td>
+                        <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">1.89%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row3_col0" class="data row3 col0">3–7</td>
+                        <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row3_col1" class="data row3 col1">9.24%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row4_col0" class="data row4 col0">4–6</td>
+                        <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row4_col1" class="data row4 col1">23.10%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row5_col0" class="data row5 col0">5–5</td>
+                        <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row5_col1" class="data row5 col1">31.18%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row6_col0" class="data row6 col0">6–4</td>
+                        <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row6_col1" class="data row6 col1">23.10%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row7_col0" class="data row7 col0">7–3</td>
+                        <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row7_col1" class="data row7 col1">9.24%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row8_col0" class="data row8 col0">8–2</td>
+                        <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row8_col1" class="data row8 col1">1.89%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row9_col0" class="data row9 col0">9–1</td>
+                        <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row9_col1" class="data row9 col1">0.17%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row10_col0" class="data row10 col0">10–0</td>
+                        <td id="T_0c35987e_be0c_11ea_a3e3_acbc32b848f1row10_col1" class="data row10 col1">0.01%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<style type="text/css">
+    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row3_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row3_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row4_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row4_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row5_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row5_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row6_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row6_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row7_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row7_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row8_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row8_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row9_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row9_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row10_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row10_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row11_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row11_col1 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1"><caption>Break Probabilities for 11 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–11</td>
+                        <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">0.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–10</td>
+                        <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">0.05%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–9</td>
+                        <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">0.72%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row3_col0" class="data row3 col0">3–8</td>
+                        <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row3_col1" class="data row3 col1">4.76%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row4_col0" class="data row4 col0">4–7</td>
+                        <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row4_col1" class="data row4 col1">15.88%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row5_col0" class="data row5 col0">5–6</td>
+                        <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row5_col1" class="data row5 col1">28.58%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row6_col0" class="data row6 col0">6–5</td>
+                        <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row6_col1" class="data row6 col1">28.58%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row7_col0" class="data row7 col0">7–4</td>
+                        <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row7_col1" class="data row7 col1">15.88%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row8_col0" class="data row8 col0">8–3</td>
+                        <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row8_col1" class="data row8 col1">4.76%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row9_col0" class="data row9 col0">9–2</td>
+                        <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row9_col1" class="data row9 col1">0.72%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row10_col0" class="data row10 col0">10–1</td>
+                        <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row10_col1" class="data row10 col1">0.05%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row11_col0" class="data row11 col0">11–0</td>
+                        <td id="T_0c374ffc_be0c_11ea_a3e3_acbc32b848f1row11_col1" class="data row11 col1">0.00%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<style type="text/css">
+    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row3_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row3_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row4_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row4_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row5_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row5_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row6_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row6_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row7_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row7_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row8_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row8_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row9_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row9_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row10_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row10_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row11_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row11_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row12_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row12_col1 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1"><caption>Break Probabilities for 12 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–12</td>
+                        <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">0.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–11</td>
+                        <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">0.01%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–10</td>
+                        <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">0.23%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row3_col0" class="data row3 col0">3–9</td>
+                        <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row3_col1" class="data row3 col1">2.12%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row4_col0" class="data row4 col0">4–8</td>
+                        <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row4_col1" class="data row4 col1">9.53%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row5_col0" class="data row5 col0">5–7</td>
+                        <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row5_col1" class="data row5 col1">22.87%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row6_col0" class="data row6 col0">6–6</td>
+                        <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row6_col1" class="data row6 col1">30.49%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row7_col0" class="data row7 col0">7–5</td>
+                        <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row7_col1" class="data row7 col1">22.87%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row8_col0" class="data row8 col0">8–4</td>
+                        <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row8_col1" class="data row8 col1">9.53%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row9_col0" class="data row9 col0">9–3</td>
+                        <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row9_col1" class="data row9 col1">2.12%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row10_col0" class="data row10 col0">10–2</td>
+                        <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row10_col1" class="data row10 col1">0.23%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row11_col0" class="data row11 col0">11–1</td>
+                        <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row11_col1" class="data row11 col1">0.01%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row12_col0" class="data row12 col0">12–0</td>
+                        <td id="T_0c3900c2_be0c_11ea_a3e3_acbc32b848f1row12_col1" class="data row12 col1">0.00%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea ">
+<style type="text/css">
+    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1 th {
+          text-align: center;
+    }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1 caption {
+          font-weight: bold;
+          font-style: italic;
+          font-size: 110%;
+          text-align: center;
+    }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row0_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row0_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row1_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row1_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row2_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row2_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row3_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row3_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row4_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row4_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row5_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row5_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row6_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row6_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row7_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row7_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row8_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row8_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row9_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row9_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row10_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row10_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row11_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row11_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row12_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row12_col1 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row13_col0 {
+            width:  20em;
+            text-align:  center;
+        }    #T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row13_col1 {
+            width:  20em;
+            text-align:  center;
+        }</style><table id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1"><caption>Break Probabilities for 13 Missing Cards</caption><thead>    <tr>        <th class="col_heading level0 col0">Break</th>        <th class="col_heading level0 col1">Probability</th>    </tr></thead><tbody>
+                <tr>
+                                <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row0_col0" class="data row0 col0">0–13</td>
+                        <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row0_col1" class="data row0 col1">0.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row1_col0" class="data row1 col0">1–12</td>
+                        <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row1_col1" class="data row1 col1">0.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row2_col0" class="data row2 col0">2–11</td>
+                        <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row2_col1" class="data row2 col1">0.06%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row3_col0" class="data row3 col0">3–10</td>
+                        <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row3_col1" class="data row3 col1">0.79%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row4_col0" class="data row4 col0">4–9</td>
+                        <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row4_col1" class="data row4 col1">4.92%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row5_col0" class="data row5 col0">5–8</td>
+                        <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row5_col1" class="data row5 col1">15.93%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row6_col0" class="data row6 col0">6–7</td>
+                        <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row6_col1" class="data row6 col1">28.31%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row7_col0" class="data row7 col0">7–6</td>
+                        <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row7_col1" class="data row7 col1">28.31%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row8_col0" class="data row8 col0">8–5</td>
+                        <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row8_col1" class="data row8 col1">15.93%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row9_col0" class="data row9 col0">9–4</td>
+                        <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row9_col1" class="data row9 col1">4.92%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row10_col0" class="data row10 col0">10–3</td>
+                        <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row10_col1" class="data row10 col1">0.79%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row11_col0" class="data row11 col0">11–2</td>
+                        <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row11_col1" class="data row11 col1">0.06%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row12_col0" class="data row12 col0">12–1</td>
+                        <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row12_col1" class="data row12 col1">0.00%</td>
+            </tr>
+            <tr>
+                                <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row13_col0" class="data row13 col0">13–0</td>
+                        <td id="T_0c3b1966_be0c_11ea_a3e3_acbc32b848f1row13_col1" class="data row13 col1">0.00%</td>
+            </tr>
+    </tbody></table>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/bridge-math/2020/07/05/Eight-Never-Nine-Ever.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/bridge-math/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/bridge-math/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/bridge-math/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/fastai" title="fastai"><svg class="svg-icon grey"><use xlink:href="/bridge-math/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/bridge-math/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
